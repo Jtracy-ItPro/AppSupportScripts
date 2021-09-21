@@ -1,7 +1,5 @@
 ' Detect Visual Studio Code x64 (Per-User install)
 
-' Will NOT detect "all users" install (c:\program files\)
-
 ' =-=-=-=-==--=
 
 ' @Jtracy_ItPro - App detection VbScript
@@ -29,7 +27,9 @@
 
 '=-=-=-=-=-=-=-
 
-' MS makes a dedicated per-user installer. It does not need the end user to be an admin to isntall or update.
+' Will NOT detect "all users" install (c:\program files\)
+
+' MS makes a dedicated per-user installer. It does not need the end user to be an admin to install or update.
 ' It uses InnoSetup for the EXE installer.
 
 ' This will not detect a ZIP install. The only way to do that, is to scan every file in the user's profile.

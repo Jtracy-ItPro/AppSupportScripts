@@ -5,7 +5,6 @@
 ' @Jtracy_ItPro - App detection VbScript
 
 ' let's call this 1.2
-' This version uses regex matching.
 
 ' This script is designed to be a MEMCM detection rule
 ' It scans the uninstall infor in your registry for the app.
